@@ -8,14 +8,14 @@
 </a>
 
 <p align="center">
-  <a href="https://github.com/VarunGovernor?tab=achievements">
-    <img src="https://img.shields.io/badge/Achievements-Unlocked-00f0ff?style=for-the-badge&logo=github&logoColor=white" alt="Achievements" />
-  </a>
   <a href="https://varungovernor.github.io/My-Portfolio/">
-    <img src="https://img.shields.io/badge/Live_Portfolio-Visit-22c55e?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Live_Portfolio-00F0FF?style=for-the-badge&logo=react&logoColor=000" alt="Portfolio" />
   </a>
   <a href="https://linkedin.com/in/varungovernor">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:varunmanikanta15@gmail.com">
+    <img src="https://img.shields.io/badge/Direct_Ping-22C55E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
@@ -23,39 +23,31 @@
 
 ---
 
-### 🏆 Unlocked Milestones & Trophies
+### 🐍 Contribution Activity Stream (Dynamic Snake)
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=VarunGovernor&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8&column=6" alt="GitHub Trophies" width="100%" />
+  <img src="https://raw.githubusercontent.com/VarunGovernor/VarunGovernor/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Grid" width="100%" />
 </div>
 
 ---
 
-### 📈 Contribution Heatmap & Tracking (Viral Snake)
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/VarunGovernor/VarunGovernor/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
-</div>
-
----
-
-### ⚡ Activity & Contribution Telemetry
+### ⚡ Activity & Engineering Telemetry
 
 <div align="center">
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=VarunGovernor&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="95%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=VarunGovernor&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" width="95%" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VarunGovernor&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=6" alt="Top Languages" width="95%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VarunGovernor&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=6&v=2" alt="Top Languages" width="95%" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" valign="top">
       <br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=VarunGovernor&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="Varun's GitHub Stats" width="85%" />
+      <img src="https://github-readme-stats.vercel.app/api?username=VarunGovernor&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&v=2" alt="Varun's GitHub Stats" width="85%" />
     </td>
   </tr>
 </table>
@@ -72,16 +64,14 @@
 
 ---
 
-### 🚀 Featured Engineering Projects
+### 🚀 Flagship Architectures
 
-| Project | Tech Stack | Architecture & Purpose |
+| Project | Ecosystem | Architectural Competencies |
 | :--- | :--- | :--- |
-| **[CDR-Analysis](https://github.com/VarunGovernor/CDR-Analysis)** | `TypeScript` `Supabase` `PostgreSQL` | Cybercrime forensic telemetry engine parsing massive telecom call detail records with spatial tower triangulation. |
-| **[Monopoly-Co-op](https://github.com/VarunGovernor/Monopoly-Co-op)** | `Next.js 15` `Tailwind` `WebSockets` | Real-time distributed state engine synchronizing multiplayer sessions with deterministic event handling. |
-| **[AirDrawer](https://github.com/VarunGovernor/Air_Drawing)** | `Python` `OpenCV` `MediaPipe` | Optical vector canvas translating real-time contactless finger kinematics into 60 FPS paths. |
-| **[My-Portfolio](https://github.com/VarunGovernor/My-Portfolio)** | `React` `Vite` `TailwindCSS` | High-performance developer portfolio built with sub-second load times and custom micro-interactions. |
-Varun Governor • Systems & Full-Stack Engineer <<<
-</div>
+| **[CDR-Analysis](https://github.com/VarunGovernor/CDR-Analysis)** | `TypeScript` `Supabase` `PostgreSQL` | Cyber forensic engine ingesting high-volume telecom records with cell-tower spatial triangulation. |
+| **[Monopoly-Co-op](https://github.com/VarunGovernor/Monopoly-Co-op)** | `Next.js 15` `Tailwind` `WebSockets` | Distributed deterministic state machine synchronizing real-time multiplayer states. |
+| **[AirDrawer](https://github.com/VarunGovernor/Air_Drawing)** | `Python` `OpenCV` `MediaPipe` | Contactless optical kinematics translating hand gestures into a 60 FPS vector canvas. |
+| **[My-Portfolio](https://github.com/VarunGovernor/My-Portfolio)** | `React` `Vite` `TailwindCSS` | High-throughput developer terminal designed for sub-second load times. |
 
 <br/>
 
