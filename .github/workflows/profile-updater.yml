@@ -1,0 +1,124 @@
+name: Profile Metrics & Dynamic Visuals Engine
+
+on:
+  schedule:
+    # Synchronize every 12 hours at 00:00 and 12:00 UTC
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-updater.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-updater-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # =========================================================================
+  # JOB 1: Compile 3D Isometric Contribution Graph
+  # =========================================================================
+  build-3d-graph:
+    name: Generate 3D Contribution Calendar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Render 3D Isometric Contribution Calendars
+        uses: yoshi389111/github-profile-3d-contrib@0.7.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Upload 3D Graph Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-3d-contrib
+          path: profile-3d-contrib/
+          if-no-files-found: error
+          retention-days: 1
+
+  # =========================================================================
+  # JOB 2: Render Contribution Snake Animation (Light & Dark SVGs)
+  # =========================================================================
+  build-snake:
+    name: Generate Contribution Snake Animation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+
+      - name: Render Contribution Grid Snake (SVG Only)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Snake Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-assets
+          path: dist/
+          if-no-files-found: error
+          retention-days: 1
+
+  # =========================================================================
+  # JOB 3: Consolidate & Push Assets to Orphaned Output Branch
+  # =========================================================================
+  push-output:
+    name: Deploy Rendered Assets to Output Branch
+    needs: [build-3d-graph, build-snake]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Staging Workspace
+        run: |
+          mkdir -p dist/profile-3d-contrib
+
+      - name: Download 3D Graph Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: profile-3d-contrib
+          path: dist/profile-3d-contrib
+
+      - name: Download Snake Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: snake-assets
+          path: dist
+
+      - name: Inspect Staged Assets
+        run: |
+          echo "=== Root distribution files ==="
+          ls -lh dist
+          echo "=== 3D Contribution files ==="
+          ls -lh dist/profile-3d-contrib
+
+      - name: Deploy to Output Branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "chore(assets): automated sync of 3D graphs & contribution snake [skip ci]"
+          author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          committer: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
