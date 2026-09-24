@@ -31,27 +31,10 @@
 
 ---
 
-### ⚡ Activity & Engineering Telemetry
+### ⚡ Contribution Streak & Telemetry
 
 <div align="center">
-
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=VarunGovernor&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" width="95%" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VarunGovernor&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=6&v=2" alt="Top Languages" width="95%" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=VarunGovernor&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&v=2" alt="Varun's GitHub Stats" width="85%" />
-    </td>
-  </tr>
-</table>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VarunGovernor&theme=tokyonight&hide_border=true&border_radius=10" alt="GitHub Streak" width="85%" />
 </div>
 
 ---
@@ -76,3 +59,5 @@
 <br/>
 
 <div align="center">
+Varun Governor • Systems & Full-Stack Engineer <<<
+</div>
