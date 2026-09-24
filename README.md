@@ -1,58 +1,88 @@
-# ⚡ Varun Governor
+<div align="center">
 
-```text
- ██╗   ██╗ █████╗ ██████╗ ██╗   ██╗███╗   ██╗   ███████╗██╗   ██╗███████╗
- ██║   ██║██╔══██╗██╔══██╗██║   ██║████╗  ██║   ██╔════╝╚██╗ ██╔╝██╔════╝
- ██║   ██║███████║██████╔╝██║   ██║██╔██╗ ██║   ███████╗ ╚████╔╝ ███████╗
- ╚██╗ ██╔╝██╔══██║██╔══██╗██║   ██║██║╚██╗██║   ╚════██║  ╚██╔╝  ╚════██║
-  ╚████╔╝ ██║  ██║██║  ██║╚██████╔╝██║ ╚████║██╗███████║   ██║   ███████║
-   ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚══════╝   ╚═╝   ╚══════╝
-📡 System Diagnostics & Telemetry
-Bash
-[varun@nexus-9 ~]$ ./inspect_runtime.sh --verbose
-[+] OPERATOR       : Varun Governor (VarunGovernor)
-[+] ARCHITECTURE   : Full-Stack Security Systems & Distributed State Engines
-[+] CORE_RUNTIMES  : TypeScript | Node.js | Python 3 | Next.js 15 | Supabase
-[+] LATENCY_TARGET : < 16ms render cycle | Deterministic state reconciliation
-[+] SIGNATURE      : "Don't just catch errors. Trace the packet to the origin."
-Ini, TOML
-[RUNTIME_ENVIRONMENT]
-OS = "macOS Darwin x86_64 / Linux container root"
-MEMORY_FOOTPRINT = "Zero-leak garbage collection policy"
-FAVORITE_HEX = 0x00F0FF (Electric Cyan)
-PRIMARY_EDITOR = "VS Code [Tokyo Night + Fira Code Retina]"
-AUDIO_FEED = "Synthwave / Dark Electro 140BPM Continuous Stream"
-CURRENT_TARGET = "Processing 1M+ CDR telecom tuples in sub-second memory space"
-🧬 Dynamic Telemetry & Contribution Visuals
-⚡ Real-Time Commit Grid Ingestion (Viper Protocol)
-Animated kinetic vector tracking commits directly across the repository space:
-🌌 3D Isometric Git Architecture
-Night-view isometric extrusion of live contributions deployed via automated cron:
-⚔️ Engineering Quest Board (Senior Milestones)
-Diff
-+ [UNLOCKED] GODSPEED TRIANGULATION
-+ Reconstructed spatial paths and cell-tower handoffs from gigabyte-scale CDR dumps in sub-seconds.
+# Hi, I'm Varun 👋
+### Senior Full-Stack Engineer • Systems Architecture & Forensics
 
-+ [UNLOCKED] MULTI-NODE TRANSACTION MATRIX
-+ Architected zero-divergence deterministic state engine syncing multi-player boards in real time.
+<a href="https://github.com/VarunGovernor">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=700&height=80&lines=Building+Scalable+Full-Stack+Architectures;Cyber+Forensics+%26+Telecom+Data+Engines;Specialized+in+React%2C+Next.js%2C+Python+%26+TypeScript" alt="Typing SVG" />
+</a>
 
-+ [UNLOCKED] OPTICAL KINEMATIC EXTRACTION
-+ Built 60 FPS real-time spatial computer vision canvas translating hand gestures into vector paths.
+<p align="center">
+  <a href="https://github.com/VarunGovernor?tab=achievements">
+    <img src="https://img.shields.io/badge/Achievements-Unlocked-00f0ff?style=for-the-badge&logo=github&logoColor=white" alt="Achievements" />
+  </a>
+  <a href="https://varungovernor.github.io/My-Portfolio/">
+    <img src="https://img.shields.io/badge/Live_Portfolio-Visit-22c55e?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/varungovernor">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
-! [IN PROGRESS] ZERO-KNOWLEDGE LOG TELEMETRY
-! Engineering distributed immutable forensic trails with zero cloud credential persistence.
-🎮 Battle Station & Tech Armory
-Module Layer	Arsenal	Operational Competencies
-Command Line & Core	Python 3 TypeScript C++ Node.js Bash	Micro-optimizations, async multiplexing, memory-safe data ingest
-Frontend Dynamics	Next.js 15 React 19 Tailwind CSS Vite	Sub-millisecond state updates, dynamic physics, zero layout shifts
-Data Engine & Cloud	Supabase PostgreSQL Docker AWS Lightsail	Realtime RLS policies, spatial geo-indexing, persistent PM2 processes
-Forensics & Intelligence	CDR Triangulation Network Telemetry GA4	Multi-point trajectory correlation, heuristic anomaly detection
-🚀 Classified Projects & Architecture Links
-├── [01] CDR-Analysis           :: Cybercrime forensic telemetry engine & tower triangulation
-│   └── Tech: TypeScript | Supabase | PostgreSQL | Spatial Triangulation
-├── [02] Monopoly-Co-op         :: Distributed deterministic multiplayer state machine
-│   └── Tech: Next.js 15 | App Router | Tailwind CSS | Real-time Sockets
-├── [03] AirDrawer              :: Kinematic spatial gesture vector drawing platform
-│   └── Tech: Python 3 | MediaPipe | OpenCV | Zero-Jitter Filtering
-└── [04] My-Portfolio           :: High-throughput personal telemetry terminal showcase
-    └── Tech: React | Vite | Tailwind Token Architecture | CI/CD Automated
+</div>
+
+---
+
+### 🏆 Unlocked Milestones & Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=VarunGovernor&theme=tokyonight&no-bg=true&no-frame=true&margin-w=8&column=6" alt="GitHub Trophies" width="100%" />
+</div>
+
+---
+
+### 📈 Contribution Heatmap & Tracking (Viral Snake)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/VarunGovernor/VarunGovernor/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
+</div>
+
+---
+
+### ⚡ Activity & Contribution Telemetry
+
+<div align="center">
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=VarunGovernor&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" width="95%" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VarunGovernor&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&langs_count=6" alt="Top Languages" width="95%" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <br/>
+      <img src="https://github-readme-stats.vercel.app/api?username=VarunGovernor&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&count_private=true&include_all_commits=true" alt="Varun's GitHub Stats" width="85%" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 🛠️ Production Tech Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,py,supabase,postgres,docker,git,vite,postman,bash,linux&theme=dark&perline=7" alt="Tech Stack" />
+</div>
+
+---
+
+### 🚀 Featured Engineering Projects
+
+| Project | Tech Stack | Architecture & Purpose |
+| :--- | :--- | :--- |
+| **[CDR-Analysis](https://github.com/VarunGovernor/CDR-Analysis)** | `TypeScript` `Supabase` `PostgreSQL` | Cybercrime forensic telemetry engine parsing massive telecom call detail records with spatial tower triangulation. |
+| **[Monopoly-Co-op](https://github.com/VarunGovernor/Monopoly-Co-op)** | `Next.js 15` `Tailwind` `WebSockets` | Real-time distributed state engine synchronizing multiplayer sessions with deterministic event handling. |
+| **[AirDrawer](https://github.com/VarunGovernor/Air_Drawing)** | `Python` `OpenCV` `MediaPipe` | Optical vector canvas translating real-time contactless finger kinematics into 60 FPS paths. |
+| **[My-Portfolio](https://github.com/VarunGovernor/My-Portfolio)** | `React` `Vite` `TailwindCSS` | High-performance developer portfolio built with sub-second load times and custom micro-interactions. |
+Varun Governor • Systems & Full-Stack Engineer <<<
+</div>
+
+<br/>
+
+<div align="center">
